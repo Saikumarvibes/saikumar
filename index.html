@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingala Sai Kumar | Aspiring Data Analyst</title>
+    <meta name="description" content="Portfolio of Lingala Sai Kumar - Aspiring Data Analyst with strong proficiency in SQL query design, data manipulation, and Python programming.">
+    <meta name="keywords" content="Lingala Sai Kumar, Data Analyst, SQL, Python, Data Analytics, QSpiders, Hyderabad">
+    <meta name="author" content="Lingala Sai Kumar">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lingala Sai Kumar | Aspiring Data Analyst">
+    <meta property="og:description" content="Data Analytics Portfolio showcasing SQL query expertise, data manipulation, and Python fundamentals.">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="#hero" class="nav-brand" aria-label="Home">
+                    <span class="brand-monogram">LSK</span>
+                    <span class="brand-text">Sai Kumar<span class="accent-dot">.</span></span>
+                </a>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Technical Skills</a></li>
+                    <li class="nav-item"><a href="#training" class="nav-link">Training</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#objective" class="nav-link">Highlights</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item mobile-only">
+                        <a href="./asserts/Lingala_Sai_Kumar_Data_Analyst_Resume.pdf" class="btn btn-accent btn-sm" download target="_blank">
+                            <i class="fa-solid fa-file-arrow-down"></i> Resume
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-actions">
+                    <a href="./asserts/Lingala_Sai_Kumar_Data_Analyst_Resume.pdf" class="btn btn-outline btn-sm desktop-only" download target="_blank">
+                        <i class="fa-solid fa-file-arrow-down"></i> Resume
+                    </a>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="status-dot"></span> Open to Entry-Level Roles & Internships
+                    </div>
+                    <h1 class="hero-title">Lingala Sai Kumar</h1>
+                    <h2 class="hero-subtitle">Aspiring Data Analyst</h2>
+                    <p class="hero-description">
+                        Building a strong foundation in complex SQL queries, relational data manipulation, and Python programming. Focused on turning raw data into structured insights to drive data-backed business decisions.
+                    </p>
+
+                    <div class="hero-meta">
+                        <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana</span>
+                        <span class="meta-item"><i class="fa-solid fa-envelope"></i> saikumarbusinessinsight@gamil.com</span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+                        <a href="./asserts/Lingala_Sai_Kumar_Data_Analyst_Resume.pdf" class="btn btn-secondary" download target="_blank"><i class="fa-solid fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-card">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="code-title">query_insight.sql</span>
+                        </div>
+                        <div class="code-body">
+                            <pre><code><span class="keyword">SELECT</span> 
+    candidate_name,
+    primary_skills,
+    analytics_focus
+<span class="keyword">FROM</span> data_analysts_pool
+<span class="keyword">WHERE</span> status = <span class="string">'Ready for Entry-Level'</span>
+  <span class="keyword">AND</span> location = <span class="string">'Hyderabad, Telangana'</span>;
+
+<span class="comment">-- Executing query...</span>
+<span class="comment">-- Result: Lingala Sai Kumar [SQL, Python, Data Analytics]</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-profile">
+                        <h3 class="card-title"><i class="fa-solid fa-user-astronaut"></i> Profile Summary</h3>
+                        <p class="about-text">
+                            I am an aspiring Data Analyst with a solid foundation in SQL and a growing proficiency in Python. Skilled in crafting precise SQL queries involving joins, subqueries, functions, aggregations, filtering, grouping, and complex data manipulation.
+                        </p>
+                        <p class="about-text">
+                            Currently strengthening my Python programming and analytical problem-solving skills through intensive Data Analytics training at QSpiders. I am seeking an entry-level opportunity to work with real-world data, apply analytical skills, gain industry exposure, and actively contribute to data-driven business solutions.
+                        </p>
+                    </div>
+
+                    <div class="about-card target-roles">
+                        <h3 class="card-title"><i class="fa-solid fa-bullseye"></i> Target Roles</h3>
+                        <ul class="role-list">
+                            <li><i class="fa-solid fa-check"></i> Data Analyst</li>
+                            <li><i class="fa-solid fa-check"></i> Junior Data Analyst</li>
+                            <li><i class="fa-solid fa-check"></i> Data Analytics Intern</li>
+                        </ul>
+                        <div class="location-badge">
+                            <i class="fa-solid fa-map-pin"></i> Base Location: Hyderabad, Telangana
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Capabilities</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- SQL Skill Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                            <div>
+                                <h3 class="skill-name">SQL</h3>
+                                <span class="skill-status">Core Focus</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Writing efficient queries for relational database extraction, transformation, and structural manipulation.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Joins</span>
+                            <span class="tag">Subqueries</span>
+                            <span class="tag">Functions</span>
+                            <span class="tag">Aggregations</span>
+                            <span class="tag">Filtering</span>
+                            <span class="tag">Grouping</span>
+                            <span class="tag">Data Manipulation</span>
+                        </div>
+                    </div>
+
+                    <!-- Python Skill Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                            <div>
+                                <h3 class="skill-name">Python</h3>
+                                <span class="skill-status">Developing Proficiency</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Strengthening programming logic and foundational scripts for data manipulation and analytics workflows.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Core Syntax</span>
+                            <span class="tag">Data Types</span>
+                            <span class="tag">Conditional Statements</span>
+                            <span class="tag">Loops</span>
+                            <span class="tag">Basic Problem-Solving</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div>
+                                <h3 class="skill-name">Data Analytics</h3>
+                                <span class="skill-status">Foundational</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Applying analytical thinking to solve problems, structure raw data, and generate business insights.</p>
+                        <div class="skill-tags">
+                            <span class="tag">Analytical Thinking</span>
+                            <span class="tag">Working with Datasets</span>
+                            <span class="tag">Query-Based Extraction</span>
+                            <span class="tag">Data Structuring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Training Section -->
+        <section id="training" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Learning & Growth</span>
+                    <h2 class="section-title">Professional Training</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="timeline-title">Data Analytics Course</h3>
+                                    <h4 class="timeline-institution"><i class="fa-solid fa-building-columns"></i> QSpiders</h4>
+                                </div>
+                                <span class="timeline-badge badge-active">Currently Pursuing</span>
+                            </div>
+                            <p class="timeline-text">
+                                Actively enrolled in professional training focused on developing practical execution skills in SQL database queries, Python programming, dataset analytics, and technical problem-solving.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <div class="edu-header">
+                                <h3 class="edu-degree">B.Com (Computers)</h3>
+                                <span class="edu-status">Currently Pursuing</span>
+                            </div>
+                            <h4 class="edu-institution">VJIAS</h4>
+                            <p class="edu-meta"><i class="fa-regular fa-calendar"></i> Expected Graduation: 2027</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                        <div class="edu-details">
+                            <div class="edu-header">
+                                <h3 class="edu-degree">Intermediate / 12th</h3>
+                                <span class="edu-status status-complete">Completed</span>
+                            </div>
+                            <h4 class="edu-institution">Narayana Junior College</h4>
+                            <p class="edu-meta"><i class="fa-solid fa-circle-check"></i> Academic Completion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights / Objective Section -->
+        <section id="objective" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Vision & Value</span>
+                    <h2 class="section-title">Career Objective & Strengths</h2>
+                </div>
+
+                <div class="highlight-box">
+                    <div class="highlight-quote">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="objective-text">
+                            To begin a career in Data Analytics where I can apply my SQL and developing Python skills, work with real-world datasets, learn from experienced professionals, and contribute to data-driven business decisions while continuously improving my technical and analytical abilities.
+                        </p>
+                    </div>
+
+                    <div class="strengths-grid">
+                        <div class="strength-item">
+                            <i class="fa-solid fa-terminal strength-icon"></i>
+                            <div>
+                                <h4>Structured Querying</h4>
+                                <p>Proven knowledge in extracting data across multi-table databases using SQL joins and nested subqueries.</p>
+                            </div>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fa-solid fa-brain strength-icon"></i>
+                            <div>
+                                <h4>Analytical Mindset</h4>
+                                <p>Combining academic exposure to computer applications with structured data analysis methodologies.</p>
+                            </div>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fa-solid fa-laptop-code strength-icon"></i>
+                            <div>
+                                <h4>Continuous Learning</h4>
+                                <p>Enhancing daily computational capabilities through structured training at QSpiders.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3>Let's Connect</h3>
+                        <p>I am actively seeking entry-level opportunities, junior data analyst roles, and internships in Hyderabad. Feel free to reach out directly.</p>
+
+                        <div class="contact-methods">
+                            <a href="mailto:saikumarbusinessinsight@gamil.com" class="contact-method">
+                                <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="method-label">Email</span>
+                                    <span class="method-value">saikumarbusinessinsight@gamil.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:6305523090" class="contact-method">
+                                <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span class="method-label">Phone</span>
+                                    <span class="method-value">+91 6305523090</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-method">
+                                <div class="method-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <span class="method-label">Location</span>
+                                    <span class="method-value">Hyderabad, Telangana</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta-card">
+                        <h3>Availability Status</h3>
+                        <div class="availability-badge">
+                            <i class="fa-solid fa-circle"></i> Open to Opportunities
+                        </div>
+                        <p>Ready to join immediately for full-time junior positions or analytical internships.</p>
+                        <a href="assets/resume.pdf" class="btn btn-primary btn-block" download target="_blank">
+                            <i class="fa-solid fa-file-pdf"></i> Download Full Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="brand-monogram">LSK</span>
+                <span class="brand-text">Lingala Sai Kumar</span>
+            </div>
+            <p class="footer-text">&copy; <span id="current-year"></span> Lingala Sai Kumar. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
